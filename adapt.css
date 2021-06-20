@@ -1,0 +1,242 @@
+@media(max-width: 400px) {
+  :root {
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 60%;
+  }
+    .move {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      height: 9rem;
+    }
+    .move > p {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    .w {
+      animation: move;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate;
+    }
+    @keyframes move {
+      0%{
+        font-size: 1.4rem;
+  
+      }
+      100%{
+        font-size: 1.4rem;
+      }
+    }
+
+    .btn {
+      margin-bottom: 1.8rem;
+  
+    }
+    .mode {
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    #question {
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+    }
+  
+    .container2 { 
+      width: 100%;/* 100% view width */
+      margin: 0 auto; 
+      padding: 1rem;
+      height: auto;
+    }
+    #instr {
+      margin-top: 20%;
+      height: 1000px;
+    }
+  
+    #home > .score {
+      padding-top: 2rem;
+      font-size: 3rem;
+    }
+  
+   }
+  
+   @media(width:768px) {
+    :root {
+      background-attachment: fixed;
+      background-size: cover;
+      font-size: 60%;
+    }
+     .mode {
+       height: 100px;
+       
+     }
+    .mode > a {
+      margin: 0.5rem;
+      width: 9rem;
+      height: 70px;
+      
+    }
+    .mode > a > svg {
+      margin-top: 5px;
+      width: 35px;
+      height: 35px;
+    }
+    
+    .move {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      height: 9rem;
+    }
+    .move > p {
+      text-align: center;
+    }
+    .w {
+      animation: move;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate;
+    }
+    @keyframes move {
+      0%{
+        font-size: 2.5rem;
+  
+      }
+      100%{
+        font-size: 2.5rem;
+      }
+    }
+    
+    .flex-center > .quiz {
+      margin-top: 8rem;
+      font-size: 9rem;
+    }
+
+    .btn {
+      width: 30rem;
+      height: 7rem;
+      font-size: 3rem;
+      margin-bottom: 4rem;
+    }
+
+   .h > a {
+     margin: 0.5rem;
+     width: 9rem;
+     height: 70px;
+     
+   }
+    .h > a > svg {
+      margin-top: 5px;
+      width: 35px;
+      height: 35px;
+    }
+    #home > c {
+      margin-top: 5rem;
+    }
+
+    #question {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
+
+    .choice-container { /* answers (choices) */
+      display: flex; /* for easy manage */
+      margin-bottom: 2rem; 
+      width: 100%;
+      font-size: 3rem; /* text size */
+      
+      
+    }
+
+    .choice-prefix { /*A, B, C, D */
+      padding: 1.5rem 2.5rem; /* paddings 1.5 for bottom and top, 2.5 for sides */
+      
+    }
+    
+    .choice-text { /* text of choices */
+      padding: 1.5rem; /* padding around */
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    .hud-prefix{
+      font-size: 4rem;
+    }
+    #progressBar {
+      width: 27rem;
+    }
+
+
+    input {
+      width: 30rem;
+      font-size: 2.5rem;
+      margin-bottom: 4rem;
+    }
+    
+    .flex-center > #finalScore {
+      margin-top: 5.5rem;
+      font-size: 9rem;
+    }
+
+    #home > .score {
+      margin-top: 7rem;
+      font-size: 5rem;
+    }
+
+    #highScoresList > li{
+      font-size: 5rem;
+    }
+    .but  {
+      width: 30rem;
+      font-size: 3rem;
+      margin-top: 5rem;
+    }
+
+    .container2 { 
+      width: 100%;/* 100% view width */
+      margin: 0 auto; 
+      padding: 1rem;
+      height: 1200px;
+    }
+    #instr  {
+      margin-top: 40%;
+      font-size: 2.7rem;
+    }
+
+    #instr > h1 {
+      margin-top: 5rem;
+      
+    }
+
+    button > svg{
+      width: 36px;
+      height: 36px;
+    }
+    a > svg {
+      width: 36px;
+      height: 36px;
+    }
+  
+   }
+   
