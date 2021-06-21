@@ -6,7 +6,7 @@
   /* "https://www.pixelstalk.net/wp-content/uploads/images1/Dark-Space-Backgrounds-HD.jpg" */
   * {
     box-sizing: border-box; /* with this calculates size with border (usually calculates without border) */
-    font-family: Snell Roundhand, cursive; /* text's style */
+    font-family: Times New Roman, cursive; /* text's style */
     margin: 0; /* to remove extra margins and paddings */
     padding: 0;
     color:#000000; /* color of text */
